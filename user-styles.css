@@ -17,4 +17,12 @@
 	display: none;
 }
 
+/* tumblr */
+#tumblr_controls {
+  display: none !important;
+}
 
+/* stackoverflow */
+.everyonelovesstackoverflow {
+  display: none !important;
+}
