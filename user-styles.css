@@ -7,11 +7,14 @@
 
 /* houzzz */
 #navContainer #navHeader, #navContainer .signUpPromoContainer {
-	display: none;
+	display: none !important;
 }
 
 /* Feedly */
 #feedlyFrame .topWikiWidget,
-#feedlyFrame .bottomWikiWidget {
+#feedlyFrame .bottomWikiWidget,
+#feedlyFrame .nbrRecommendations {
 	display: none;
 }
+
+
