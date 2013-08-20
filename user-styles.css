@@ -1,0 +1,17 @@
+/* twitter */
+#page-container .dashboard .wtf-module,
+#page-container .dashboard .trends,
+#page-container .dashboard .site-footer {
+	display: none !important;
+}
+
+/* houzzz */
+#navContainer #navHeader, #navContainer .signUpPromoContainer {
+	display: none;
+}
+
+/* Feedly */
+#feedlyFrame .topWikiWidget,
+#feedlyFrame .bottomWikiWidget {
+	display: none;
+}
