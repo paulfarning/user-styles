@@ -19,7 +19,7 @@
 }
 
 /* tumblr */
-#tumblr_controls {
+#tumblr_controls, #iframe_controls {
   display: none !important;
 }
 
