@@ -13,7 +13,8 @@
 /* Feedly */
 #feedlyFrame .topWikiWidget,
 #feedlyFrame .bottomWikiWidget,
-#feedlyFrame .nbrRecommendations {
+#feedlyFrame .nbrRecommendations,
+#feedlyFrame .websiteCallForAction {
 	display: none;
 }
 
