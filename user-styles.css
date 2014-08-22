@@ -1,29 +1,50 @@
 /* twitter */
-#page-container .dashboard .wtf-module,
-#page-container .dashboard .trends,
-#page-container .dashboard .site-footer {
-	display: none !important;
+div.promoted-tweet,
+div.promoted-account,
+li.promoted-trend {
+  display: none !important;
+}
+body.logged-in {
+  background: #222 !important;
+}
+body.logged-in .topbar {
+  position: static !important;
+}
+.AppContent {
+  padding-top: 10px;
 }
 
-/* houzzz */
-#navContainer #navHeader, #navContainer .signUpPromoContainer {
-	display: none !important;
-}
 
 /* Feedly */
 #feedlyFrame .topWikiWidget,
 #feedlyFrame .bottomWikiWidget,
 #feedlyFrame .nbrRecommendations,
-#feedlyFrame .websiteCallForAction {
-	display: none;
+#feedlyFrame #aboutArea,
+#feedlyFrame .websiteCallForAction,
+#feedlyFrame .shareBarHolder,
+#feedlyFrame .condensedTools {
+  display: none !important;
 }
+
 
 /* tumblr */
 #tumblr_controls, #iframe_controls {
   display: none !important;
 }
 
+.single #bglink,
+.single #page.clearfloat #sidebar {
+  display: none !important;
+}
+
+
 /* stackoverflow */
 .everyonelovesstackoverflow, #hireme {
+  display: none !important;
+}
+
+
+/* houzzz */
+#navContainer #navHeader, #navContainer .signUpPromoContainer {
   display: none !important;
 }
