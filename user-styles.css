@@ -22,7 +22,8 @@ body.logged-in .topbar {
 #feedlyFrame #aboutArea,
 #feedlyFrame .websiteCallForAction,
 #feedlyFrame .shareBarHolder,
-#feedlyFrame .condensedTools {
+#feedlyFrame .condensedTools,
+#feedlyTabs #fixedProfile {
   display: none !important;
 }
 
